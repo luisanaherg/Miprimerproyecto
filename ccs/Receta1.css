@@ -1,0 +1,83 @@
+.foto_tarjeta {
+    background-image: url(../Multimedia/Image/pollo_en_salsa_cremosa.jpg);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    border: 5px orange solid;
+    border-radius: 5px;
+}
+
+main {
+    width: 100vw;
+}
+.categorias ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.categorias {
+    margin-top: 2%;
+}
+
+h3  {
+ padding: 1%;
+    background-color: orange;
+    font-size: larger;
+}
+
+article li{
+    display: flex;
+    flex-direction: row;
+
+}
+article ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+}
+
+main h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    padding: 20px;
+    background-color: orange;
+}
+
+
+p {
+    padding: 1%;
+    text-align: justify;
+}
+.tips {
+ margin: 10px;
+}
+
+.tarjeta_receta ul {
+    padding: 2%;
+    text-align: justify;
+}
+
+footer ul {
+    padding: 0%;
+}
+
+button {
+    width: 150px;
+    font-size: larger;
+}

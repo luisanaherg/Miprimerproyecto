@@ -1,0 +1,144 @@
+main {
+    width: 100%;
+    height: 85%;
+}
+
+.recetacero {
+    background-image: url(../Multimedia/Image/espaguetis_con_verduras.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.733);
+}
+
+.recetauno {
+    background-image: url(../Multimedia/Image/pollo_en_salsa_cremosa.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.733);
+}
+
+.recetados {
+    background-image: url(../Multimedia/Image/berenjenas_gratinadas.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.733);
+}
+
+.recetatres {
+    background-image: url(../Multimedia/Image/espaguetis_con_carne_picada.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.733);
+}
+
+main h1 {
+    margin-top: 1%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+
+}
+
+.categorias {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    column-gap: 2%;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main_recetas {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+
+}
+
+
+.submain_recetas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.main_recetas .submain_recetas div {
+    width: 92%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.submain_recetas article {
+    text-align: center;
+    font-size: 80%;
+}
+
+.tips {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-evenly;
+
+}
+
+.tips h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.tips div {
+    border: 3px solid white;
+    border-radius: 8%;
+    height: auto;
+    width: 30%;
+}
+
+li {
+    text-align: center;
+}
+
+.tips h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.submain {
+    width: 100%;
+    background-color: orange;
+}

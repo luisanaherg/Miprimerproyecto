@@ -1,0 +1,83 @@
+.submain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+}
+
+main h1 {
+    margin-top: 1%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+
+}
+.main_img {
+    margin: 5%;
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px black;
+    background-image: url(../Multimedia/Image/foto-grupal-amigos-fiesta_23-2148232005.webp);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main p {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+
+.descripcion {
+    margin-top: 2%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px;
+
+}
+
+h1 {
+    padding: 2%;
+}
+
+p {
+    margin: 2%;
+}
+
+.descripcion h2 {
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.descripciondos h3 {
+ margin-top: 3%;
+}
+
+.descripciondos {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+iframe {
+    display: flex;
+    flex-direction: column;
+   
+}
