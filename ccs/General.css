@@ -84,6 +84,9 @@ footer {
     display: flex;
     background-color: red;
     justify-content: center;
+    position: static;
+    bottom: 0px;
+
 }
 
 footer a {

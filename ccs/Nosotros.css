@@ -3,7 +3,6 @@
     flex-direction: row;
     width: 100%;
     height: 100%;
-
 }
 
 main h1 {
@@ -34,8 +33,6 @@ main p {
     display: flex;
     flex-direction: column;
     align-content: center;
-
-
 }
 
 .descripcion {
@@ -72,8 +69,6 @@ p {
     text-align: left;
     display: flex;
     flex-direction: column;
-
-
 }
 
 iframe {
@@ -81,3 +76,9 @@ iframe {
     flex-direction: column;
    
 }
+
+@media screen and (min-width:391px) and (max-width:768px) {
+
+}
+
+@media screen and (max-width:390px) {}
