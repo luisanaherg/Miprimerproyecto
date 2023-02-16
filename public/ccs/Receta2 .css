@@ -1,5 +1,5 @@
 .foto_tarjeta {
-    background-image: url(../Multimedia/Image/berenjenas_gratinadas.webp);
+    background-image: url(../Multimedia/Image/pollo_en_salsa_cremosa.jpg);
     width: 600px;
     height: 400px;
     background-size: cover;
@@ -46,14 +46,14 @@ article ul {
 
 main h1 {
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     font-size: 30px;
-    padding: 20px;
     text-align: center;
     background-color: orange;
     width: 100%;
 }
+
 
 main h2 {
     margin-top: 1%;

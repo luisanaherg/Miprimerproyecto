@@ -3,22 +3,27 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: larger;
-    padding: 20px;
+    font-size: 90%;
+    margin-bottom: 10%;
     color: black;
     }
 
 body{
     width: 100vw;
+    height: 100vh;
+}
+
+main {
+    height: 82vh;
 }
 
 form h2 {
     margin-bottom: 30px;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 form label {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 input {
     width: 300px;
@@ -33,9 +38,11 @@ main h2 {
     text-align: center;
     background-color: orange;
 }
+
 button {
     font-size: large;
 }
+
 
 @media screen and (max-width:390px) {
     

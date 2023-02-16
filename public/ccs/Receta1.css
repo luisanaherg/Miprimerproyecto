@@ -1,13 +1,13 @@
 .foto_tarjeta {
-    background-image: url(../Multimedia/Image/pollo_en_salsa_cremosa.jpg);
-    width: 600px;
+    background-image: url(../Multimedia/Image/espaguetis_con_verduras.webp);
+    width: 500px;
     height: 400px;
+    background-position: center;
     background-size: cover;
     display: block;
     margin: auto;
     border: 5px orange solid;
     border-radius: 5px;
-    background-position: center;
 }
 
 body {
@@ -46,10 +46,9 @@ article ul {
 
 main h1 {
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     font-size: 30px;
-    padding: 20px;
     text-align: center;
     background-color: orange;
     width: 100%;

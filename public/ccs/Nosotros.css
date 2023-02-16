@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
 }
 
 main h1 {
@@ -13,6 +12,7 @@ main h1 {
     background-color: orange;
 
 }
+
 .main_img {
     margin: 5%;
     width: 600px;
@@ -38,8 +38,7 @@ main p {
 .descripcion {
     margin-top: 2%;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     padding: 30px;
 
@@ -59,7 +58,7 @@ p {
 }
 
 .descripciondos h3 {
- margin-top: 3%;
+    margin-top: 3%;
 }
 
 .descripciondos {
@@ -74,11 +73,72 @@ p {
 iframe {
     display: flex;
     flex-direction: column;
-   
+
 }
 
 @media screen and (min-width:391px) and (max-width:768px) {
 
+    .submain {
+        flex-direction: column;
+    }
+
+    .descripcion {
+        padding: 0;
+    }
+
+    .main_img {
+        margin: auto;
+    }
+
+    .descripciondos {
+        margin-top: 1%;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    iframe {
+        margin-left: 17%;
+    }
 }
 
-@media screen and (max-width:390px) {}
+@media screen and (max-width:390px) {
+
+    .submain {
+        flex-direction: column;
+    }
+
+    .descripcion {
+        padding: 0;
+        font-size: small;
+    }
+
+    .main_img {
+        margin: auto;
+        height: 250px;
+        width: 300px;
+
+    }
+
+    .descripciondos {
+        margin-top: 1%;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+        margin-left: 10%;
+    }
+
+    nav li {
+        font-size: 80%;
+    }
+
+    nav i {
+        font-size: 20%;
+    }
+
+}
