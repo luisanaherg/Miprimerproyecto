@@ -127,7 +127,7 @@ button {
     }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:667px) {
 
     button {
         width: 90px;
@@ -154,16 +154,18 @@ button {
 
     nav {
         width: 100%;
-
     }
 
     nav i {
         font-size: 10px;
         color: white;
-
     }
 
     nav li {
         font-size: 5%;
+    }
+
+    header {
+        height: 5%;
     }
 }
